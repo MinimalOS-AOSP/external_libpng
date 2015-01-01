@@ -2301,11 +2301,10 @@ png_compare_ICC_profile_with_sRGB(png_const_structrp png_ptr,
          /* The signature matched, but the profile had been changed in some
           * way.  This probably indicates a data error or uninformed hacking.
           * Fall through to "no match".
-          */
          png_chunk_report(png_ptr,
-             "Not recognizing known sRGB profile that has been edited", 
+             "Not recognizing known sRGB profile that has been edited",
              PNG_CHUNK_WARNING);
-         break;
+         break; */
 # endif
       }
    }
